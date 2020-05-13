@@ -23,7 +23,7 @@ public:
             }
             else{
                 if(nums[mid]!=nums[mid+1] && nums[mid]!=nums[mid-1])
-                    return nums[mid];
+                    return  nums[mid];
             }
             
             if(mid%2){
