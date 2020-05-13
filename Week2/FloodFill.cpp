@@ -33,6 +33,6 @@ public:
 		    delete[] vis[i];
         }
         delete[] vis;
-        return image;
+        return  image;
     }
 };
