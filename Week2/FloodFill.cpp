@@ -21,7 +21,7 @@ public:
         int row = image.size();
         int col = image[0].size();
         bool **vis = new bool*[row+1];
-        for(int i=0;i<=row;i++){
+        for(int i=0; i<=row; i++){
             vis[i] = new bool[col+1];
             for(int j=0;j<=col;j++)
                 vis[i][j] = false;
