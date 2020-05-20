@@ -4,7 +4,7 @@ public:
     bool isPermutation(int ar1[],int ar2[]){
         for(int i=0;i<26;i++){
           if(ar1[i]!=ar2[i])
-               return false;
+               return  false;
         }
         return true;
     }
